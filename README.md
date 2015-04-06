@@ -24,9 +24,9 @@ Rdgem.create_field(app_key, field_name)
 Rdgem.get_or_create_company(app_key, company)
 
     # Searches the account for the company name and uses it when creating the lead. 
-  
-  # Creates the organization if nonexistent
+    
+    # Creates the organization if nonexistent
 
 Rdgem.send_lead(app_key, lead)
 
-  posts the info to Pipedrive, if the app_key is valid 
+    # Posts the info to Pipedrive, if the app_key is valid 
