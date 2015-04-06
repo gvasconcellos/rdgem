@@ -30,3 +30,8 @@ Rdgem.get_or_create_company(app_key, company)
 Rdgem.send_lead(app_key, lead)
 
     # Posts the info to Pipedrive, if the app_key is valid 
+
+
+Based on HTTParty and Pipedrive's API
+
+    https://developers.pipedrive.com/v1
