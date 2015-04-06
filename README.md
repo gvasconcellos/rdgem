@@ -35,3 +35,8 @@ Rdgem.send_lead(app_key, lead)
 Based on HTTParty and Pipedrive's API
 
     https://developers.pipedrive.com/v1
+    
+TODOs
+
+    separate in classes
+    DRY it up
