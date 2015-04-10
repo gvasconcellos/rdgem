@@ -2,6 +2,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rdgem/version'
+require 'rdgem/people'
+require 'rdgem/people_fields'
+require 'rdgem/companies'
 
 Gem::Specification.new do |spec|
   spec.name          = "rdgem"
@@ -20,5 +23,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.2"
   spec.add_dependency('httparty')
 end
