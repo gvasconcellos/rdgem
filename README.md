@@ -17,7 +17,7 @@ Rdgem::PeopleFields.assert_fields(fields, app_key)
   
     # Creates the field if nonexistent (using create_field())
   
-RdgemPeopleFields.create_field(app_key, field_name)
+Rdgem::PeopleFields.create_field(app_key, field_name)
 
     # adds a new field to the Pipedrive account (will be made private)
 
@@ -37,7 +37,7 @@ Rdgem::Companies.delete_company(app_key, company_id)
 
     # Deletes a company using it's ID
     
-RdgemPeopleFields.delete_field(app_key, field_id)
+Rdgem::PeopleFields.delete_field(app_key, field_id)
 
     # deletes a field from the Pipedrive account
 
